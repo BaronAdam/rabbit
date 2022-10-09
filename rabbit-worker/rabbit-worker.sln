@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rabbit-worker", "rabbit-worker\rabbit-worker.csproj", "{12237002-1393-4399-B1CA-8D8B61B2C893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rabbit-worker.Contract", "rabbit-worker.Contract\rabbit-worker.Contract.csproj", "{02093486-EBF7-4D11-A991-E413220259D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12237002-1393-4399-B1CA-8D8B61B2C893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12237002-1393-4399-B1CA-8D8B61B2C893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12237002-1393-4399-B1CA-8D8B61B2C893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12237002-1393-4399-B1CA-8D8B61B2C893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02093486-EBF7-4D11-A991-E413220259D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02093486-EBF7-4D11-A991-E413220259D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02093486-EBF7-4D11-A991-E413220259D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02093486-EBF7-4D11-A991-E413220259D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

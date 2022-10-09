@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "bc0e2947-bfb8-4f95-98bc-2d72ce8c64da",
+		"name": "rabbit",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "7189744"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7019/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:7019/"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7019/message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7019/message"
+			},
+			"response": []
+		}
+	]
+}
