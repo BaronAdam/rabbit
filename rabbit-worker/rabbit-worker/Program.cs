@@ -27,7 +27,7 @@ IHost host = Host.CreateDefaultBuilder(args)
                     q.Durable = true;
                     q.AutoDelete = false;
                     q.DeadLetterExchange = "test-exchange-dl";
-                    q.PrefetchCount = 2;
+                    q.PrefetchCount = 10;
 
                     q.ConfigureConsumer<MessageConsumer>(ctx);
 
